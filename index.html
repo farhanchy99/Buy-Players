@@ -136,7 +136,7 @@
                 </div>
             </div>
 
-
+            <!-- Player Cart-->
             <div class="block gap-4">
                 <div class="bg-slate-900 h-2/5 p-8 py-8 rounded-lg mb-5">
                     <h2 class="text-lime-300 text-3xl font-bold text-center mb-5">Selected - V</h2>
@@ -151,11 +151,12 @@
 
 
                 <div class="bg-slate-900 p-6 py-16 rounded-lg">
+                    <!--Budget Section-->
                     <div>
                         <h2 class="text-lime-300 text-3xl font-bold text-center mb-5">Budget</h2>
 
                         <span class="text-sm">Per Player   
-                            <input id="players-input-field" class="px-2 py-1 rounded w-40 ml-4 bg-inherit border-solid border-2 border-lime-300 text-lime-300" type="text" placeholder="Amount">
+                            <input id="players-input-field" class="px-2 py-1 rounded w-40 ml-4 bg-inherit border-solid border-2 border-lime-300 text-lime-300 float-right" type="text" placeholder="$ Amount">
                         </span>
 
                         <button id="btn-buy" class="w-full bg-lime-500 px-6 py-2 text-white rounded-lg mt-4 font-medium hover:bg-lime-600">Buy</button>
@@ -163,23 +164,25 @@
                         <span class="text-sm block mt-5">Player Expense <p class="text-lime-300 float-right" id="playerexpense">0</p></span>
                     </div>
 
-
+                    <!-- TotalBudget Section-->
                     <div>
                         <span class="text-base block mt-7">Manager   
-                            <input id="manager" class="text-sm px-2 py-1 rounded w-40 ml-4 bg-inherit border-solid border-2 border-lime-300 text-lime-300 float-right" type="text" placeholder="Amount">
+                            <input id="manager" class="text-sm px-2 py-1 rounded w-40 ml-4 bg-inherit border-solid border-2 border-lime-300 text-lime-300 float-right" type="text" placeholder="$ Amount">
                         </span>
 
                         <span class="text-base block mt-7">Coach   
-                            <input id="coach" class="text-sm px-2 py-1 rounded w-40 ml-4 bg-inherit border-solid border-2 border-lime-300 text-lime-300 float-right" type="text" placeholder="Amount">
+                            <input id="coach" class="text-sm px-2 py-1 rounded w-40 ml-4 bg-inherit border-solid border-2 border-lime-300 text-lime-300 float-right" type="text" placeholder="$ Amount">
                         </span>
 
                         <button id="btn-total" class="w-full bg-lime-500 px-6 py-2 text-white rounded-lg mt-4 font-medium hover:bg-lime-600">Total</button>
 
-                        <span class="text-lg font-bold block mt-5">Total <p class="text-lime-300 float-right" id="total"> 0</p></span>
+                        <span class="text-lg font-bold block mt-5">Total <p class="text-lime-300 float-right" id="total">0</p></span>
                     </div>
+
                 </div>
+
             </div>
-            </div>
+
         </section>
     </main>
 
@@ -190,7 +193,7 @@
         <h1>Copyright @ 2022 All Rights Reserved.</h1>
     </footer>
 
-
+<!-- Scripts Section-->
    <script src="js/common.js"></script>
    <script src="js/select.js"></script>
    <script src="js/budget.js"></script>
