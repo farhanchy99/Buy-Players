@@ -31,7 +31,7 @@
     <main class="bg-slate-800 text-white pb-10">
         <section class="w-10/12 grid grid-cols-4 gap-4 py-40 mx-auto">
             <div class="grid grid-rows-3 gap-7">
-                
+
                 <div class="text-center bg-lime-500 rounded-lg pb-4">
                     <img src="img/players/player-1.png" class="w-80 rounded-t-lg" alt="">
                     <div>
@@ -112,6 +112,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="text-center bg-lime-500 rounded-lg pb-4">
                     <img src="img/players/player-6.png" class="w-80 rounded-t-lg" alt="">
                     <div>
@@ -122,6 +123,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="text-center bg-lime-500 rounded-lg pb-4">
                     <img src="img/players/player-9.png" class="w-80 rounded-t-lg" alt="">
                     <div>
@@ -140,11 +142,11 @@
                     <h2 class="text-lime-300 text-3xl font-bold text-center mb-5">Selected - V</h2>
                     <div class="overflow-x-auto">
                         <table class="table w-full text-lime-300">
-                          <tbody id="players-cart">
-                            
-                          </tbody>
+                            <tbody id="players-cart">
+                                
+                            </tbody>
                         </table>
-                      </div>
+                    </div>
                 </div>
 
 
@@ -153,7 +155,8 @@
                         <h2 class="text-lime-300 text-3xl font-bold text-center mb-5">Budget</h2>
 
                         <span class="text-sm">Per Player   
-                        <input id="players-input-field" class="px-2 py-1 rounded w-40 ml-4 bg-inherit border-solid border-2 border-lime-300 text-lime-300" type="text" placeholder="amount"></span>
+                            <input id="players-input-field" class="px-2 py-1 rounded w-40 ml-4 bg-inherit border-solid border-2 border-lime-300 text-lime-300" type="text" placeholder="Amount">
+                        </span>
 
                         <button id="btn-buy" class="w-full bg-lime-500 px-6 py-2 text-white rounded-lg mt-4 font-medium hover:bg-lime-600">Buy</button>
                         
@@ -163,12 +166,15 @@
 
                     <div>
                         <span class="text-base block mt-7">Manager   
-                            <input id="manager" class="text-sm px-2 py-1 rounded w-40 ml-4 bg-inherit border-solid border-2 border-lime-300 text-lime-300 float-right" type="text" placeholder="amount">
+                            <input id="manager" class="text-sm px-2 py-1 rounded w-40 ml-4 bg-inherit border-solid border-2 border-lime-300 text-lime-300 float-right" type="text" placeholder="Amount">
                         </span>
+
                         <span class="text-base block mt-7">Coach   
-                            <input id="coach" class="text-sm px-2 py-1 rounded w-40 ml-4 bg-inherit border-solid border-2 border-lime-300 text-lime-300 float-right" type="text" placeholder="amount">
+                            <input id="coach" class="text-sm px-2 py-1 rounded w-40 ml-4 bg-inherit border-solid border-2 border-lime-300 text-lime-300 float-right" type="text" placeholder="Amount">
                         </span>
+
                         <button id="btn-total" class="w-full bg-lime-500 px-6 py-2 text-white rounded-lg mt-4 font-medium hover:bg-lime-600">Total</button>
+
                         <span class="text-lg font-bold block mt-5">Total <p class="text-lime-300 float-right" id="total"> 0</p></span>
                     </div>
                 </div>
