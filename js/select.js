@@ -59,5 +59,4 @@ document.getElementById('btn-total').addEventListener('click', function(){
     const playerExpense = parseInt(document.getElementById('playerexpense').innerText);
     const total = coach + manager + playerExpense
     document.getElementById('total').innerText = total; 
-
 })
