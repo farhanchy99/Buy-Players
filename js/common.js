@@ -1,3 +1,6 @@
+//Common Js File
+
+
 const players = [];
 
 function addToPlayers(element){ 
@@ -6,7 +9,7 @@ function addToPlayers(element){
         pdName: pdName,
     }
     players.push(pd);
-
+//Error Section
     if(players.length > 5){
         alert("You can't add more than 5 Players");
     }

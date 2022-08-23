@@ -1,3 +1,5 @@
+//Button Disable Section
+
 document.getElementById('btn-1').addEventListener('click', function () {
     document.getElementById('btn-1').disabled = true;
     document.getElementById('btn-1').style.backgroundColor = '#717170';
@@ -43,13 +45,14 @@ document.getElementById('btn-9').addEventListener('click', function () {
 })
 
 
-
+//Budget Section
 document.getElementById('btn-buy').addEventListener('click', function(){
     const inputPlayers = document.getElementsByTagName("tr").length;
     const inputAmount = parseInt(document.getElementById('players-input-field').value);
     document.getElementById('playerexpense').innerText = inputPlayers * inputAmount;
 })
 
+//TotalBudget Section
 document.getElementById('btn-total').addEventListener('click', function(){
     const coach = parseInt(document.getElementById('coach').value);
     const manager = parseInt(document.getElementById('manager').value);
