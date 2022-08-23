@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIFA 22 Buy Player</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.24.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+
+<body>
+    <!-- Header Section -->
+    <header class="container bg-cover bg-left py-36" style="background-image: url(img/cover.png)">
+        <div class="w-4/5 grid grid-cols-2 m-auto text-center">
+            <div class="">
+                <img src="img/fifa.png"  class="w-2/3" alt="">
+            </div>
+            <div class="">
+                <h1 class="text-7xl font-extrabold text-lime-300 mt-16">FIFA Online Players</h1>
+                <p class="text-3xl text-white mt-5">Buy Your Favourite players for FIFA 22 Career</p>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- Main Section -->
+    <main class="bg-slate-800 text-white pb-10">
+        <section class="w-10/12 grid grid-cols-4 gap-4 py-40 mx-auto">
+            <div class="grid grid-rows-3 gap-7">
+                <div class="text-center bg-lime-500 rounded-lg pb-4">
+                    <img src="img/players/player-1.png" class="w-80 rounded-t-lg" alt="">
+                    <div>
+                        <h2 class="text-2xl font-bold mt-5">Chistiano Ronaldo</h2>
+                        <p class="text-base text-slate-600">56 Goals - 110 Assists</p>
+                        <div>
+                            <button class="bg-slate-900 px-16 py-2 rounded-lg mt-4 hover:bg-zinc-500" id="btn-1" onclick="addToPlayers(this)">Select Player</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center bg-lime-500 rounded-lg pb-4">
+                    <img src="img/players/player-4.png" class="w-80 rounded-t-lg" alt="">
+                    <div>
+                        <h2 class="text-2xl font-bold mt-5">Lionel Messi</h2>
+                        <p class="text-base text-slate-600">45 Goals - 178 Assists</p>
+                        <div class="btn-select">
+                            <button class="bg-slate-900 px-16 py-2 rounded-lg mt-4 hover:bg-zinc-500" id="btn-2" onclick="addToPlayers(this)">Select Player</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center bg-lime-500 rounded-lg pb-4">
+                    <img src="img/players/player-7.png" class="w-80 rounded-t-lg" alt="">
+                    <div>
+                        <h2 class="text-2xl font-bold mt-5">Antoine Griezmann</h2>
+                        <p class="text-base text-slate-600">36 Goals - 126 Assists</p>
+                        <div>
+                            <button class="bg-slate-900 px-16 py-2 rounded-lg mt-4 hover:bg-zinc-500" id="btn-3" onclick="addToPlayers(this)">Select Player</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid grid-rows-3 gap-7">
+                <div class="text-center bg-lime-500 rounded-lg pb-4">
+                    <img src="img/players/player-2.png" class="w-80 rounded-t-lg" alt="">
+                    <div>
+                        <h2 class="text-2xl font-bold mt-5">Thibout Courtois(G)</h2>
+                        <p class="text-base text-slate-600">6 Goals - 80 Assists</p>
+                        <div>
+                            <button class="bg-slate-900 px-16 py-2 rounded-lg mt-4 hover:bg-zinc-500" id="btn-4" onclick="addToPlayers(this)">Select Player</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center bg-lime-500 rounded-lg pb-4">
+                    <img src="img/players/player-5.png" class="w-80 rounded-t-lg" alt="">
+                    <div>
+                        <h2 class="text-2xl font-bold mt-5">Karim Benzema</h2>
+                        <p class="text-base text-slate-600">50 Goals - 116 Assists</p>
+                        <div>
+                            <button class="bg-slate-900 px-16 py-2 rounded-lg mt-4 hover:bg-zinc-500" id="btn-5" onclick="addToPlayers(this)">Select Player</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center bg-lime-500 rounded-lg pb-4">
+                    <img src="img/players/player-8.png" class="w-80 rounded-t-lg" alt="">
+                    <div>
+                        <h2 class="text-2xl font-bold mt-5">Kylian Mbappe</h2>
+                        <p class="text-base text-slate-600">30 Goals - 80 Assists</p>
+                        <div>
+                            <button class="bg-slate-900 px-16 py-2 rounded-lg mt-4 hover:bg-zinc-500" id="btn-6" onclick="addToPlayers(this)">Select Player</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid grid-rows-3 gap-7">
+                <div class="text-center bg-lime-500 rounded-lg pb-4">
+                    <img src="img/players/player-3.png" class="w-80 rounded-t-lg" alt="">
+                    <div>
+                        <h2 class="text-2xl font-bold mt-5">Robert Lewandowski</h2>
+                        <p class="text-base text-slate-600">40 Goals - 90 Assists</p>
+                        <div>
+                            <button class="bg-slate-900 px-16 py-2 rounded-lg mt-4 hover:bg-zinc-500" id="btn-7" onclick="addToPlayers(this)">Select Player</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center bg-lime-500 rounded-lg pb-4">
+                    <img src="img/players/player-6.png" class="w-80 rounded-t-lg" alt="">
+                    <div>
+                        <h2 class="text-2xl font-bold mt-5">Neymar Jr</h2>
+                        <p class="text-base text-slate-600">35 Goals - 136 Assists</p>
+                        <div>
+                            <button class="bg-slate-900 px-16 py-2 rounded-lg mt-4 hover:bg-zinc-500" id="btn-8" onclick="addToPlayers(this)">Select Player</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center bg-lime-500 rounded-lg pb-4">
+                    <img src="img/players/player-9.png" class="w-80 rounded-t-lg" alt="">
+                    <div>
+                        <h2 class="text-2xl font-bold mt-5">Mohamed Salah</h2>
+                        <p class="text-base text-slate-600">47 Goals - 127 Assists</p>
+                        <div>
+                            <button class="bg-slate-900 px-16 py-2 rounded-lg mt-4 hover:bg-zinc-500" id="btn-9" onclick="addToPlayers(this)">Select Player</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="block gap-4">
+                <div class="bg-slate-900 h-2/5 p-8 py-8 rounded-lg mb-5">
+                    <h2 class="text-lime-300 text-3xl font-bold text-center mb-5">Selected - V</h2>
+                    <div class="overflow-x-auto">
+                        <table class="table w-full text-lime-300">
+                          <tbody id="players-cart">
+                            
+                          </tbody>
+                        </table>
+                      </div>
+                </div>
+
+
+                <div class="bg-slate-900 p-6 py-16 rounded-lg">
+                    <div>
+                        <h2 class="text-lime-300 text-3xl font-bold text-center mb-5">Budget</h2>
+
+                        <span class="text-sm">Per Player   
+                        <input id="players-input-field" class="px-2 py-1 rounded w-40 ml-4 bg-inherit border-solid border-2 border-lime-300 text-lime-300" type="text" placeholder="amount"></span>
+
+                        <button id="btn-buy" class="w-full bg-lime-500 px-6 py-2 text-white rounded-lg mt-4 font-medium hover:bg-lime-600">Buy</button>
+                        
+                        <span class="text-sm block mt-5">Player Expense <p class="text-lime-300 float-right" id="playerexpense">0</p></span>
+                    </div>
+
+
+                    <div>
+                        <span class="text-base block mt-7">Manager   
+                            <input id="manager" class="text-sm px-2 py-1 rounded w-40 ml-4 bg-inherit border-solid border-2 border-lime-300 text-lime-300 float-right" type="text" placeholder="amount">
+                        </span>
+                        <span class="text-base block mt-7">Coach   
+                            <input id="coach" class="text-sm px-2 py-1 rounded w-40 ml-4 bg-inherit border-solid border-2 border-lime-300 text-lime-300 float-right" type="text" placeholder="amount">
+                        </span>
+                        <button id="btn-total" class="w-full bg-lime-500 px-6 py-2 text-white rounded-lg mt-4 font-medium hover:bg-lime-600">Total</button>
+                        <span class="text-lg font-bold block mt-5">Total <p class="text-lime-300 float-right" id="total"> 0</p></span>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+
+    <hr class="h-px border-0 bg-gray-500">
+    
+    <!-- Footer Section -->
+    <footer class="bg-slate-800 text-lime-300 text-center py-20">
+        <h1>Copyright @ 2022 All Rights Reserved.</h1>
+    </footer>
+
+
+   <script src="js/common.js"></script>
+   <script src="js/select.js"></script>
+   <script src="js/budget.js"></script>
+    
+</body>
+</html>
